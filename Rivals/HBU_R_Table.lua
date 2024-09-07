@@ -31,6 +31,7 @@ getgenv().hbu = {
             MainSystems = {
                 SilentAim = {
                     Enabled = { State = true },
+                    HitPart = { Locked = "Head" }, -- Silent Aim now locks to the "Head" part
                     Prediction = {
                         PredictionControl = {
                             Enabled = { State = false },
