@@ -31,7 +31,7 @@ getgenv().hbu = {
             MainSystems = {
                 SilentAim = {
                     Enabled = { State = true },
-                    HitPart = { Locked = "Head" }, -- Silent Aim now locks to the "Head" part
+                    HitPart = { Locked = "Head" }, -- https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 For All The HitParts.
                     Prediction = {
                         PredictionControl = {
                             Enabled = { State = false },
