@@ -1,4 +1,37 @@
 getgenv().hbu = {
+    AssistiveTab = {
+        AimSettings = {
+            MainSystems = {
+                Main = {
+                    License = { Key = "License" },
+                    Version = { Model = {1.0} }
+                },
+                SilentAim = {
+                    Enabled = { State = true },
+                    Prediction = {
+                        PredictionControl = {
+                            Enabled = { State = false },
+                            Amount = { BaseValue = 1.0 }
+                        }
+                    },
+                    Display = {
+                        TargetIndicator = {
+                            Enabled = { State = true },
+                            Position = { Offset = UDim2.new(0, 0, 0, -30) }, -- Default offset above the player's head
+                            TextSize = { Value = 12 },
+                            Font = { Style = Enum.Font.Arcade }
+                        },
+                        TargetOptions = {  
+                            ShowHealth = { Enabled = true },
+                            ShowVelocity = { Enabled = true },
+                            ShowUsername = { Enabled = true },
+                            ShowDisplayName = { Enabled = true }
+                        }
+                    }
+                }
+            }
+        }
+    },
     MainTab = {
         PlayerOptions = {
             MovementControl = {
@@ -20,26 +53,6 @@ getgenv().hbu = {
                     Settings = {
                         Enabled = { State = false },
                         Speed = { Value = 10 }
-                    },
-                    State = { CurrentState = "Passive" }
-                }
-            }
-        }
-    },
-    AssistiveTab = {
-        AimSettings = {
-            MainSystems = {
-                SilentAim = {
-                    Enabled = { State = true },
-                    Prediction = {
-                        PredictionControl = {
-                            Enabled = { State = false },
-                            Amount = { BaseValue = 1.0 }
-                        }
-                    },
-                    Display = {
-                        TargetNameType = { Current = "DisplayName" },
-                        ShowTargetName = { State = false }
                     }
                 }
             }
