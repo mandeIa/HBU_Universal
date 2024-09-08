@@ -31,7 +31,6 @@ getgenv().hbu = {
             MainSystems = {
                 SilentAim = {
                     Enabled = { State = true },
-                    HitPart = { Locked = "Head" }, -- https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 For All The HitParts.
                     Prediction = {
                         PredictionControl = {
                             Enabled = { State = false },
@@ -66,30 +65,30 @@ getgenv().hbu = {
     },
     SkinChangerTab = {
         WeaponSkins = {
-            Enabled = { State = false },
+            Enabled = { State = true },
             Skins = {
-                ["Bow"] = { "Compound Bow" },
-                ["Assault Rifle"] = { "AK-47" },
-                ["Chainsaw"] = { "Blobsaw" },
-                ["RPG"] = { "Nuke Launcher" },
-                ["Burst Rifle"] = { "Aqua Burst" },
-                ["Exogun"] = { "Singularity" },
-                ["Fists"] = { "Boxing Gloves" },
-                ["Flamethrower"] = { "Lamethrower" },
-                ["Flare Gun"] = { "Dynamite Gun" },
-                ["Freeze Ray"] = { "Bubble Ray" },
-                ["Grenade"] = { "Water Balloon" },
-                ["Grenade Launcher"] = { "Swashbuckler" },
-                ["Handgun"] = { "Blaster" },
-                ["Katana"] = { "Lightning Bolt" },
-                ["Minigun"] = { "Lasergun 3000" },
-                ["Paintball Gun"] = { "Boba Gun" },
-                ["Revolver"] = { "Sheriff" },
-                ["Slingshot"] = { "Goalpost" },
-                ["Subspace Tripmine"] = { "Don't Press" },
-                ["Uzi"] = { "Electro Uzi" },
-                ["Sniper"] = { "Pixel Sniper" },
-                ["Knife"] = { "Karambit" }
+                ["Bow"] = { Skin = "Compound Bow", Enabled = true },
+                ["Assault Rifle"] = { Skin = "AK-47", Enabled = true },
+                ["Chainsaw"] = { Skin = "Blobsaw", Enabled = true },
+                ["RPG"] = { Skin = "Nuke Launcher", Enabled = true },
+                ["Burst Rifle"] = { Skin = "Aqua Burst", Enabled = true },
+                ["Exogun"] = { Skin = "Singularity", Enabled = true },
+                ["Fists"] = { Skin = "Boxing Gloves", Enabled = true },
+                ["Flamethrower"] = { Skin = "Lamethrower", Enabled = true },
+                ["Flare Gun"] = { Skin = "Dynamite Gun", Enabled = true },
+                ["Freeze Ray"] = { Skin = "Bubble Ray", Enabled = true },
+                ["Grenade"] = { Skin = "Water Balloon", Enabled = true },
+                ["Grenade Launcher"] = { Skin = "Swashbuckler", Enabled = true },
+                ["Handgun"] = { Skin = "Blaster", Enabled = true },
+                ["Katana"] = { Skin = "Lightning Bolt", Enabled = true },
+                ["Minigun"] = { Skin = "Lasergun 3000", Enabled = true },
+                ["Paintball Gun"] = { Skin = "Boba Gun", Enabled = true },
+                ["Revolver"] = { Skin = "Sheriff", Enabled = true },
+                ["Slingshot"] = { Skin = "Goalpost", Enabled = true },
+                ["Subspace Tripmine"] = { Skin = "Don't Press", Enabled = true },
+                ["Uzi"] = { Skin = "Electro Uzi", Enabled = true },
+                ["Sniper"] = { Skin = "Pixel Sniper", Enabled = true },
+                ["Knife"] = { Skin = "Karambit", Enabled = true }
             }
         }
     }
