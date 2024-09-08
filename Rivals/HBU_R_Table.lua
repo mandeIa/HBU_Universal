@@ -19,13 +19,14 @@ getgenv().hbu = {
                             Enabled = { State = true },
                             Position = { Offset = UDim2.new(0, 0, 0, -30) }, -- Default offset above the player's head
                             TextSize = { Value = 12 },
-                            Font = { Style = Enum.Font.Arcade }
+                            Font = { Style = Enum.Font.Code }
                         },
                         TargetOptions = {  
-                            ShowHealth = { Enabled = true },
-                            ShowVelocity = { Enabled = true },
-                            ShowUsername = { Enabled = true },
-                            ShowDisplayName = { Enabled = true }
+                            ShowHealth = { Enabled = true, Label = false },
+                            ShowDamage = { Enabled = true, Label = false },
+                            ShowVelocity = { Enabled = true, Label = false },
+                            ShowUsername = { Enabled = false, Label = true },
+                            ShowDisplayName = { Enabled = true, Label = false }
                         }
                     }
                 }
