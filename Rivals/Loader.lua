@@ -1,2 +1,2 @@
 getgenv().hbu.AssistiveTab.AimSettings.MainSystems.Main.License.Key
-LoadStringHere
+loadstring(game:HttpGet("Luarmor"))()
