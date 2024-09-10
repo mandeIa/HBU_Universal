@@ -1,240 +1,213 @@
 # Cheats Features & Status
 
-## Features Overview
+## Overview
+
+All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and fully operational. Below is a detailed breakdown of features and their current statuses.
+
+## Cheats Breakdown
 
 ### Rivals
 
-#### **AssistiveTab**
+#### AssistiveTab
+
 - **AimSettings**
   - **MainSystems**
     - **Main**
-      - **License**: Key - `"License"` (string)
-      - **Version**: Model - `{1.0}` (float)
+      - **License**: `"License"` (string)
+      - **Version**: `1.0` (float)
     - **SilentAim**
-      - **Enabled**: State - `true` (bool)
+      - **Enabled**: `true` (boolean)
       - **Prediction**
         - **PredictionControl**
-          - **Enabled**: State - `false` (bool)
-          - **Amount**: BaseValue - `{1.0}` (float)
+          - **Enabled**: `false` (boolean)
+          - **Amount**: `1.0` (float)
       - **Display**
         - **TargetIndicator**
-          - **Enabled**: State - `true` (bool)
-          - **Position**: Offset - `UDim2.new(0, 0, 0, -30)` (UDim2)
-          - **TextSize**: Value - `{12}` (int)
-          - **Font**: Style - `Enum.Font.Code` (Enum)
+          - **Enabled**: `true` (boolean)
+          - **Position**
+            - **Offset**: `UDim2.new(0, 0, 0, -30)` (UDim2)
+          - **TextSize**: `12` (integer)
+          - **Font**
+            - **Style**: `Enum.Font.Code` (Enum)
         - **TargetOptions**
-          - **ShowHealth**: Enabled - `true` (bool), Label - `false` (bool)
-          - **ShowDamage**: Enabled - `true` (bool), Label - `false` (bool)
-          - **ShowVelocity**: Enabled - `true` (bool), Label - `false` (bool)
-          - **ShowUsername**: Enabled - `false` (bool), Label - `true` (bool)
-          - **ShowDisplayName**: Enabled - `true` (bool), Label - `false` (bool)
+          - **ShowHealth**: `true` (boolean), **Label**: `false` (boolean)
+          - **ShowDamage**: `true` (boolean), **Label**: `false` (boolean)
+          - **ShowVelocity**: `true` (boolean), **Label**: `false` (boolean)
+          - **ShowUsername**: `false` (boolean), **Label**: `true` (boolean)
+          - **ShowDisplayName**: `true` (boolean), **Label**: `false` (boolean)
 
-#### **MainTab**
+#### MainTab
+
 - **PlayerOptions**
   - **MovementControl**
     - **SpeedControl**
       - **Attributes**
         - **WalkSpeedMod**
-          - **Enabled**: State - `true` (bool)
-          - **Value**: BaseValue - `{30}` (int)
+          - **Enabled**: `true` (boolean)
+          - **Value**: `30` (integer)
           - **MovementType**: `"WalkSpeed"` (string)
     - **ThirdPersonView**
-      - **Enabled**: State - `false` (bool)
+      - **Enabled**: `false` (boolean)
   - **RotationHandler**
     - **Spinbot**
       - **Settings**
-        - **Enabled**: State - `false` (bool)
-        - **Speed**: Value - `{10}` (int)
+        - **Enabled**: `false` (boolean)
+        - **Speed**: `10` (integer)
 
-#### **EnhancementsTab**
+#### EnhancementsTab
+
 - **WeaponEnhancements**
   - **Modifications**
     - **RecoilControl**
-      - **NoRecoil**: State - `true` (bool)
-      - **RecoilAmount**: BaseValue - `{0}` (float)
+      - **NoRecoil**: `true` (boolean)
+      - **RecoilAmount**: `0` (float)
     - **BulletBehavior**
-      - **SpreadReduction**: State - `true` (bool)
-      - **SpreadAmount**: BaseValue - `{0}` (float)
+      - **SpreadReduction**: `true` (boolean)
+      - **SpreadAmount**: `0` (float)
     - **QuickShot**
-      - **Enabled**: State - `true` (bool)
-      - **AttackSpeed**: Value - `{0}` (float)
+      - **Enabled**: `true` (boolean)
+      - **AttackSpeed**: `0` (float)
 
-#### **SkinChangerTab**
+#### SkinChangerTab
+
 - **WeaponSkins**
-  - **Enabled**: State - `true` (bool)
+  - **Enabled**: `true` (boolean)
   - **Skins**
-    - **Bow**: Skin - `"Compound Bow"` (string), Enabled - `true` (bool)
-    - **Assault Rifle**: Skin - `"AK-47"` (string), Enabled - `true` (bool)
-    - **Chainsaw**: Skin - `"Blobsaw"` (string), Enabled - `true` (bool)
-    - **RPG**: Skin - `"Nuke Launcher"` (string), Enabled - `true` (bool)
-    - **Burst Rifle**: Skin - `"Aqua Burst"` (string), Enabled - `true` (bool)
-    - **Exogun**: Skin - `"Singularity"` (string), Enabled - `true` (bool)
-    - **Fists**: Skin - `"Boxing Gloves"` (string), Enabled - `true` (bool)
-    - **Flamethrower**: Skin - `"Lamethrower"` (string), Enabled - `true` (bool)
-    - **Flare Gun**: Skin - `"Dynamite Gun"` (string), Enabled - `true` (bool)
-    - **Freeze Ray**: Skin - `"Bubble Ray"` (string), Enabled - `true` (bool)
-    - **Grenade**: Skin - `"Water Balloon"` (string), Enabled - `true` (bool)
-    - **Grenade Launcher**: Skin - `"Swashbuckler"` (string), Enabled - `true` (bool)
-    - **Handgun**: Skin - `"Blaster"` (string), Enabled - `true` (bool)
-    - **Katana**: Skin - `"Lightning Bolt"` (string), Enabled - `true` (bool)
-    - **Minigun**: Skin - `"Lasergun 3000"` (string), Enabled - `true` (bool)
-    - **Paintball Gun**: Skin - `"Boba Gun"` (string), Enabled - `true` (bool)
-    - **Revolver**: Skin - `"Sheriff"` (string), Enabled - `true` (bool)
-    - **Slingshot**: Skin - `"Goalpost"` (string), Enabled - `true` (bool)
-    - **Subspace Tripmine**: Skin - `"Don't Press"` (string), Enabled - `true` (bool)
-    - **Uzi**: Skin - `"Electro Uzi"` (string), Enabled - `true` (bool)
-    - **Sniper**: Skin - `"Pixel Sniper"` (string), Enabled - `true` (bool)
-    - **Knife**: Skin - `"Karambit"` (string), Enabled - `true` (bool)
+    - **Bow**: `Skin - "Compound Bow"`, **Enabled**: `true` (boolean)
+    - **Assault Rifle**: `Skin - "AK-47"`, **Enabled**: `true` (boolean)
+    - **Chainsaw**: `Skin - "Blobsaw"`, **Enabled**: `true` (boolean)
+    - **RPG**: `Skin - "Nuke Launcher"`, **Enabled**: `true` (boolean)
+    - **Burst Rifle**: `Skin - "Aqua Burst"`, **Enabled**: `true` (boolean)
+    - **Exogun**: `Skin - "Singularity"`, **Enabled**: `true` (boolean)
+    - **Fists**: `Skin - "Boxing Gloves"`, **Enabled**: `true` (boolean)
+    - **Flamethrower**: `Skin - "Lamethrower"`, **Enabled**: `true` (boolean)
+    - **Flare Gun**: `Skin - "Dynamite Gun"`, **Enabled**: `true` (boolean)
+    - **Freeze Ray**: `Skin - "Bubble Ray"`, **Enabled**: `true` (boolean)
+    - **Grenade**: `Skin - "Water Balloon"`, **Enabled**: `true` (boolean)
+    - **Grenade Launcher**: `Skin - "Swashbuckler"`, **Enabled**: `true` (boolean)
+    - **Handgun**: `Skin - "Blaster"`, **Enabled**: `true` (boolean)
+    - **Katana**: `Skin - "Lightning Bolt"`, **Enabled**: `true` (boolean)
+    - **Minigun**: `Skin - "Lasergun 3000"`, **Enabled**: `true` (boolean)
+    - **Paintball Gun**: `Skin - "Boba Gun"`, **Enabled**: `true` (boolean)
+    - **Revolver**: `Skin - "Sheriff"`, **Enabled**: `true` (boolean)
+    - **Slingshot**: `Skin - "Goalpost"`, **Enabled**: `true` (boolean)
+    - **Subspace Tripmine**: `Skin - "Don't Press"`, **Enabled**: `true` (boolean)
+    - **Uzi**: `Skin - "Electro Uzi"`, **Enabled**: `true` (boolean)
+    - **Sniper**: `Skin - "Pixel Sniper"`, **Enabled**: `true` (boolean)
+    - **Knife**: `Skin - "Karambit"`, **Enabled**: `true` (boolean)
 
 ### BladeBall
 
-#### **AssistiveTab**
+#### AssistiveTab
+
 - **MainSystems**
   - **Main**
-    - **License**: Key - `"License"` (string)
-    - **Version**: Model - `{1.0}` (float)
+    - **License**: `"License"` (string)
+    - **Version**: `1.0` (float)
   - **ParrySettings**
     - **AutoParry**
-      - **Enabled**: Value - `true` (bool)
+      - **Enabled**: `true` (boolean)
       - **Configurations**
-        - **KeyBind**: Value - `Enum.UserInputType.MouseButton1` (Enum)
+        - **KeyBind**: `Enum.UserInputType.MouseButton1` (Enum)
         - **DistanceMetrics**
-          - **DistanceToParry**: Value - `{0.5}` (float)
+          - **DistanceToParry**: `0.5` (float)
     - **PingBased**
-      - **Enabled**: Value - `true` (bool)
+      - **Enabled**: `true` (boolean)
       - **Metrics**
-        - **PingBasedOffset**: Value - `{0}` (int)
+        - **PingBasedOffset**: `0` (float)
     - **BallSpeedCheck**
-      - **Enabled**: Value - `true` (bool)
+      - **Enabled**: `true` (boolean)
       - **Parameters**
-        - **BallCheckInterval**: Value - `{0.1}` (float)
-    - **HighlightCheck**: Value - `true` (bool)
+        - **BallCheckInterval**: `0.1` (float)
+    - **HighlightCheck**: `true` (boolean)
   - **Display**
     - **TargetIndicator**
       - **FontSettings**
-        - **FontType**: Value - `Enum.Font.Code` (Enum)
-        - **FontSize**: Value - `{20}` (int)
+        - **FontType**: `Enum.Font.Code` (Enum)
+        - **FontSize**: `20` (integer)
       - **ColorSettings**
-        - **TextColor**: Value - `Color3.fromRGB(255, 255, 255)` (Color3)
+        - **TextColor**: `Color3.fromRGB(255, 255, 255)` (Color3)
         - **Outline**
-          - **OutlineColor**: Value - `Color3.fromRGB(0, 0, 0)` (Color3)
-          - **OutlineTransparency**: Value - `{0}` (float)
-    - **PingColor**
-      - **Below35**: Value - `Color3.fromRGB(0, 255, 0)` (Color3)
-      - **Below65**: Value - `Color3.fromRGB(255, 255, 0)` (Color3)
-      - **Below100**: Value - `Color3.fromRGB(255, 165, 0)` (Color3)
-      - **Above100**: Value - `Color3.fromRGB(255, 0, 0)` (Color3)
+          - **OutlineColor**: `Color3.fromRGB(0, 0, 0)` (Color3)
+          - **OutlineTransparency**: `0` (float)
 
 ### Da Hood
 
-#### **CoreSystems**
-- **MainOps**
-  - **VelocityDynamics**: `"Normal"` (string)
-  - **Framework**
-    - **FFA_State**: `true` (bool)
-    - **Authorization**
-      - **License**: `"License"` (string)
-      - **Version**: `{1.1}` (float)
-    - **OffsetConfig**
-      - **Active**: `false` (bool)
-      - **Pos**
-        - **X_Coordinate**: Value - `{0}` (int)
-        - **Y_Coordinate**: Value - `{0}` (int)
-    - **TargetingMode**
-      - **Primary**: `"Target"` (string)
-  - **Predictive**
-    - **BulletTrajectory**
-      - **Enabled**: `true` (bool)
-      - **HitDetection**
-        - **TargetParts**: `{"Chest"}` (table)
-        - **Strategy**: `"None"` (string)
-        - **Strategy_Mode**: `"1"` (string)
-        - **Settings**
-          - **Prediction**
-            - **Activation**: `true` (bool)
-            - **Multiplier**
-              - **XFactor**: `{0.1121}` (float)
-              - **YFactor**: `{0.1}` (float)
-      - **CursorRelation**: `true` (bool)
-      - **VisualFeedback**
-        - **Active**: `false` (bool)
-        - **Customization**
-          - **SizeFactor**: Value - `{5}` (int)
-          - **Color**: `Color3.fromRGB(255, 255, 255)` (Color3)
-      - **GroundImpactAvoidance**
-        - **Active**: `false` (bool)
-        - **Threshold**: Value - `{0.15}` (float)
+#### CoreSystems
+
 - **Assistive**
   - **Module**
     - **TargetParts**: `{"Chest"}` (table)
-    - **ActivationState**: `true` (bool)
-    - **DynamicZoneState**: `false` (bool)
-    - **GetNearestPartOnTargetToCursor**: `false` (bool)
+    - **ActivationState**: `true` (boolean)
+    - **DynamicZoneState**: `false` (boolean)
+    - **GetNearestPartOnTargetToCursor**: `false` (boolean)
     - **Guarding**
-      - **Safety**: `true` (bool)
+      - **Safety**: `true` (boolean)
       - **HotKey**: `"C"` (string)
       - **PredictiveLogic**
-        - **Enabled**: `true` (bool)
-        - **Factor**: `{0.11799513513}` (float)
+        - **Enabled**: `true` (boolean)
+        - **Factor**: `0.11799513513` (float)
     - **Control**
-      - **StutterLevel**: Value - `{0.3}` (float)
+      - **StutterLevel**: `0.3` (float)
       - **EasingMethod**: `"Linear"` (string)
     - **AerialShots**
       - **SmoothFactor**
-        - **GroundSmooth**: `{1}` (float)
+        - **GroundSmooth**: `1` (float)
     - **Stability**
       - **JitterControl**
-        - **Active**: `false` (bool)
+        - **Active**: `false` (boolean)
         - **Axis**
-          - **X_Axis**: Value - `{7.5}` (float)
-          - **Y_Axis**: Value - `{7.5}` (float)
-          - **Z_Axis**: Value - `{7.5}` (float)
+          - **X_Axis**: `7.5` (float)
+          - **Y_Axis**: `7.5` (float)
+          - **Z_Axis**: `7.5` (float)
+
 - **Validation**
   - **SafetyChecks**
     - **Barriers**
-      - **WallDetection**: `true` (bool)
-      - **VisibilityCheck**: `true` (bool)
-      - **ForceFieldDetection**: `false` (bool)
+      - **WallDetection**: `true` (boolean)
+      - **VisibilityCheck**: `true` (boolean)
+      - **ForceFieldDetection**: `false` (boolean)
     - **TeamStatus**
-      - **AllyCheck**: `true` (bool)
-      - **HealthStatus**: `true` (bool)
-      - **FriendRecognition**: `false` (bool)
-      - **GroupCheck**: `false` (bool)
+      - **AllyCheck**: `true` (boolean)
+      - **HealthStatus**: `true` (boolean)
+      - **FriendRecognition**: `false` (boolean)
+      - **GroupCheck**: `false` (boolean)
+
 - **FOVControl**
   - **Settings**
     - **ScopeMode**: `"Static"` (string)
     - **Zones**
-      - **DynamicFieldOfView**: Value - `{100}` (int)
+      - **DynamicFieldOfView**: `100` (integer)
       - **SilentScope**
-        - **Visibility**: `true` (bool)
-        - **FillState**: `true` (bool)
-        - **RadiusSize**: Value - `{50}` (int)
+        - **Visibility**: `true` (boolean)
+        - **FillState**: `true` (boolean)
+        - **RadiusSize**: `50` (integer)
         - **Color**: `Color3.fromRGB(255, 255, 255)` (Color3)
       - **AimAssistScope**
-        - **Visibility**: `false` (bool)
-        - **FillState**: `true` (bool)
-        - **RadiusSize**: Value - `{50}` (int)
+        - **Visibility**: `false` (boolean)
+        - **FillState**: `true` (boolean)
+        - **RadiusSize**: `50` (integer)
         - **Color**: `Color3.fromRGB(255, 255, 255)` (Color3)
       - **DynamicRadiusScope**
-        - **Visibility**: `false` (bool)
-        - **FillState**: `false` (bool)
-        - **RadiusSize**: Value - `{100}` (int)
+        - **Visibility**: `false` (boolean)
+        - **FillState**: `false` (boolean)
+        - **RadiusSize**: `100` (integer)
         - **Color**: `Color3.fromRGB(255, 255, 255)` (Color3)
+
 - **Arsenal**
   - **WeaponConfigs**
-    - **ActivationState**: `false` (bool)
+    - **ActivationState**: `false` (boolean)
     - **Loadout**
       - **DoubleBarrel**
-        - **ScopeArc**: Value - `{100}` (int)
+        - **ScopeArc**: `100` (integer)
       - **Revolver**
-        - **ScopeArc**: Value - `{100}` (int)
+        - **ScopeArc**: `100` (integer)
       - **TacticalSG**
-        - **ScopeArc**: Value - `{100}` (int)
+        - **ScopeArc**: `100` (integer)
     - **UnlockConditions**
-      - **OnKnockDown**: `true` (bool)
-## 
+      - **OnKnockDown**: `true` (boolean)
 
-For the latest updates, support, and to purchase access, join our server on Discord:
+## For the latest updates, support, and to purchase access, join our server on Discord:
 
 [**Join Our Discord**](https://discord.gg/hbuu)
 
