@@ -234,8 +234,6 @@
       - **OnKnockDown**: `true` (bool)
 ## 
 
-## Purchase & Support
-
 For the latest updates, support, and to purchase access, join our server on Discord:
 
 [**Join Our Discord**](https://discord.gg/hbuu)
