@@ -6,7 +6,7 @@ All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and ful
 
 ## Cheats Breakdown
 
-### Rivals
+### Rivals - (🟢)
 
 #### AssistiveTab
 
@@ -96,7 +96,7 @@ All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and ful
     - **Sniper**: `Skin - "Pixel Sniper"`, **Enabled**: `true` (boolean)
     - **Knife**: `Skin - "Karambit"`, **Enabled**: `true` (boolean)
 
-### BladeBall
+### BladeBall - (🟢)
 
 #### AssistiveTab
 
@@ -131,7 +131,7 @@ All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and ful
           - **OutlineColor**: `Color3.fromRGB(0, 0, 0)` (Color3)
           - **OutlineTransparency**: `0` (float)
 
-### Da Hood
+### Da Hood - (🟢)
 
 #### CoreSystems
 
