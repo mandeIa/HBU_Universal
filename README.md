@@ -232,7 +232,8 @@
         - **ScopeArc**: Value - `{100}` (int)
     - **UnlockConditions**
       - **OnKnockDown**: `true` (bool)
-##  
+## 
+
 ## Purchase & Support
 
 For the latest updates, support, and to purchase access, join our server on Discord:
