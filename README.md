@@ -135,7 +135,7 @@ All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and ful
 
 #### CoreSystems
 
-- **Assistive**
+- **AssistiveTab**
   - **Module**
     - **TargetParts**: `{"Chest"}` (table)
     - **ActivationState**: `true` (boolean)
@@ -161,7 +161,7 @@ All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and ful
           - **Y_Axis**: `7.5` (float)
           - **Z_Axis**: `7.5` (float)
 
-- **Validation**
+- **ValidationTab**
   - **SafetyChecks**
     - **Barriers**
       - **WallDetection**: `true` (boolean)
@@ -173,7 +173,7 @@ All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and ful
       - **FriendRecognition**: `false` (boolean)
       - **GroupCheck**: `false` (boolean)
 
-- **FOVControl**
+- **FOVControlTab**
   - **Settings**
     - **ScopeMode**: `"Static"` (string)
     - **Zones**
@@ -194,7 +194,7 @@ All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and ful
         - **RadiusSize**: `100` (integer)
         - **Color**: `Color3.fromRGB(255, 255, 255)` (Color3)
 
-- **Arsenal**
+- **ArsenalTab**
   - **WeaponConfigs**
     - **ActivationState**: `false` (boolean)
     - **Loadout**
