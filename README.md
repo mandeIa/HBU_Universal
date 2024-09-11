@@ -4,8 +4,6 @@
 
 All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and fully operational. Below is a detailed breakdown of features and their current statuses.
 
-### Cheats Breakdown
-
 
 ## Universal Trigger Bot - (🟢)
 
