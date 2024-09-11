@@ -47,9 +47,9 @@ All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-
     - **Show User Info**: `true` (boolean)
     - **Position Mode**: `"BelowCursor"` (string)
 
-### Rivals - (🟢)
+## Rivals - (🟢)
 
-## AssistiveTab
+#### AssistiveTab
 
 - **AimSettings**
   - **MainSystems**
