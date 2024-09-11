@@ -2,9 +2,50 @@
 
 ## Overview
 
-All cheats for **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and fully operational. Below is a detailed breakdown of features and their current statuses.
+All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and fully operational. Below is a detailed breakdown of features and their current statuses.
 
 ## Cheats Breakdown
+
+
+### Universal Trigger Bot - (🟢)
+
+- **Meta**
+  - **Version**: `{ Major = 1, Minor = 0, Patch = 0 }`
+  - **License**: `"License Key"`
+  - **Hash**: `SHA256 hash with timestamp`
+- **Keys**
+  - **ActivateKey**: `"T"` (Activates Trigger Bot)
+  - **DeactivateKey**: `"Y"` (Deactivates Trigger Bot)
+- **Click**
+  - **Mouse**
+    - **Switch**: `true` (boolean)
+    - **Configuration**: 
+      - **Enabled**: `true` (boolean)
+      - **Duration**: `0.05` (float)
+      - **Interval**: `0.1` (float)
+    - **Method**: `mouse1click`
+    - **Blacklisted Items**: `{"[Knife]", "[Cookie]"}` (table)
+- **Target Assist**
+  - **Enabled**: `true` (boolean)
+  - **Priority Mode**: `"Closest To Mouse"` (string)
+  - **TargetChecks Options**
+    - **Visible**: `true` (boolean)
+- **Advanced Targeting**
+  - **DetectionRadius**: `18` (integer)
+  - **FOVModification Location**: `"Mouse"` (string)
+- **Security**
+  - **AntiCheat Methods**: `{"Adonis", "Da Hood"}` (table)
+  - **SelectedMethod**: `"Da Hood"` (string)
+- **UI Display**
+  - **Enabled**: `true` (boolean)
+  - **Size**: `UDim2.new(0, 200, 0, 50)` (UDim2)
+  - **Font**: `Enum.Font.Code` (Enum)
+  - **Color**: `Color3.fromRGB(255, 255, 255)` (Color3)
+  - **BackgroundColor**: `Color3.fromRGB(0, 0, 0)` (Color3)
+  - **StrokeTransparency**: `0.5` (float)
+  - **Advanced Settings**:
+    - **Show User Info**: `true` (boolean)
+    - **Position Mode**: `"BelowCursor"` (string)
 
 ### Rivals - (🟢)
 
