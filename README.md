@@ -49,7 +49,7 @@ All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-
 
 ### Rivals - (🟢)
 
-#### AssistiveTab
+## AssistiveTab
 
 - **AimSettings**
   - **MainSystems**
