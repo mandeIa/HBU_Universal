@@ -4,10 +4,10 @@
 
 All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and fully operational. Below is a detailed breakdown of features and their current statuses.
 
-## Cheats Breakdown
+### Cheats Breakdown
 
 
-### Universal Trigger Bot - (🟢)
+## Universal Trigger Bot - (🟢)
 
 - **Meta**
   - **Version**: `{ Major = 1, Minor = 0, Patch = 0 }`
@@ -137,7 +137,7 @@ All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-
     - **Sniper**: `Skin - "Pixel Sniper"`, **Enabled**: `true` (boolean)
     - **Knife**: `Skin - "Karambit"`, **Enabled**: `true` (boolean)
 
-### BladeBall - (🟢)
+## BladeBall - (🟢)
 
 #### AssistiveTab
 
@@ -172,7 +172,7 @@ All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-
           - **OutlineColor**: `Color3.fromRGB(0, 0, 0)` (Color3)
           - **OutlineTransparency**: `0` (float)
 
-### Da Hood - (🟢)
+## Da Hood - (🟢)
 
 #### CoreSystems
 
