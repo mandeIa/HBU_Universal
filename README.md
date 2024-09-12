@@ -2,8 +2,60 @@
 
 ## Overview
 
-All cheats for **Universal**, **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and fully operational. Below is a detailed breakdown of features and their current statuses.
+All cheats for **Universals**, **Rivals**, **BladeBall**, and **Da Hood** are up-to-date and fully operational. Below is a detailed breakdown of features and their current statuses.
 
+## Universal Anti-Aim - (🟢)
+
+#### CoreSystems
+
+- **Configuration**
+  - **License**: `"LICENSE"`
+  - **AntiSync**
+    - **State**: `false`
+    - **Orientation**
+      - **Axes**
+        - **Negative_Z**: `Vector3.new(0, 0, -1)`
+        - **Negative_Y**: `Vector3.new(0, -1, 0)`
+        - **Positive_Z**: `Vector3.new(0, 0, 1)`
+        - **Negative_X**: `Vector3.new(-1, 0, 0)`
+        - **Positive_X**: `Vector3.new(1, 0, 0)`
+        - **Positive_Y**: `Vector3.new(0, 1, 0)`
+        - **Math_Random**: `function() return Vector3.new(math.random(-3000, 3000), math.random(-3000, 3000), math.random(-3000, 3000)) end`
+      - **Current_Axis**
+        - **Velocity**: `"Math_Random"`
+      - **Velocity_Coefficient**: `65536`
+      - **Randomization_Factor**: `0.1`
+    - **Toggler**: `Enum.KeyCode.Z`
+    - **Changer**: `Enum.KeyCode.X`
+    - **Visualization**
+      - **Enabled**: `true`
+      - **UI_Elements**
+        - **Screen_GUI**: `nil`
+        - **Text_Label**: `nil`
+      - **Colors**
+        - **Active**: `Color3.fromRGB(0, 255, 0)`
+        - **Inactive**: `Color3.fromRGB(255, 0, 0)`
+      - **Text**: `"Anti-Sync: DISABLED"`
+      - **Position**: `UDim2.new(0.5, -100, 0, 0)`
+      - **Size**: `UDim2.new(0, 200, 0, 50)`
+    - **Evasion**
+      - **Enabled**: `true`
+      - **Measures**
+        - **Jitter_Threshold**: `0.05`
+        - **Dampening_Coefficient**: `0.75`
+
+#### PlayerVisualizer
+
+- **Enabled**: `true`
+- **Render_Settings**
+  - **Color**: `Color3.fromRGB(115, 147, 179)`
+  - **Material**: `"ForceField"`
+  - **Transparency**: `0.06`
+- **Drawing**
+  - **Enabled**: `true`
+  - **Elements**
+    - **Circle**: `nil`
+    - **Text**: `nil`
 
 ## Universal Trigger Bot - (🟢)
 
