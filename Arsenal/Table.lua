@@ -1,4 +1,3 @@
-```lua
 getgenv().hbu = {
     ["Interface"] = {
         License = {Data = {Key = {["Current"] = "License"}, ["Previous"] = "None"}}, -- License configuration
@@ -36,4 +35,4 @@ getgenv().hbu = {
             BlacklistCheck = {Data = {["Enabled"] = false}},
         },
     }
-}```
+}
